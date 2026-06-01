@@ -1,0 +1,4 @@
+interface:
+  display_name: "BetterThink"
+  short_description: "Use a stricter, verification-first coding workflow"
+  default_prompt: "Use $betterthink to reduce ambiguity before editing, complete and verify one work item at a time, keep the project's memory file lean and current, and screenshot-check any UI work across mobile, tablet, and desktop."
