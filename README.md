@@ -95,6 +95,20 @@ mkdir -p ~/.gemini/skills/betterthink
 cp gemini/SKILL.md ~/.gemini/skills/betterthink/SKILL.md
 ```
 
+### Cursor
+
+```bash
+mkdir -p .cursor/rules
+cp cursor/SKILL.md .cursor/rules/betterthink.mdc
+```
+
+### GitHub Copilot
+
+```bash
+mkdir -p .github
+cp copilot/SKILL.md .github/copilot-instructions.md
+```
+
 The skill activates automatically when the agent detects a coding task. No extra configuration needed.
 
 ## Supported Agents
@@ -104,6 +118,8 @@ The skill activates automatically when the agent detects a coding task. No extra
 | Claude Code | `claude/` | `CLAUDE.md` / `AGENTS.md` |
 | OpenAI Codex | `codex/` | `AGENTS.md` |
 | Gemini CLI | `gemini/` | `GEMINI.md` / `AGENT.md` |
+| Cursor | `cursor/` | `.cursor/rules/*.mdc` / `.cursorrules` |
+| GitHub Copilot | `copilot/` | `.github/copilot-instructions.md` |
 
 ## Why
 
