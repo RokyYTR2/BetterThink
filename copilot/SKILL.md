@@ -12,6 +12,7 @@ Apply this skill at the start of a coding task when correctness and discipline m
 Target: reach high confidence in the requested outcome before editing.
 ## Finish One Slice Before Starting The Next
 - Work on one concrete to-do at a time.
+- Verify the current slice before moving on: read the diff, run the relevant test or command, or inspect the behavior directly.
 - Do not stack partially finished fixes with a plan to circle back later unless the task genuinely requires it.
 Target: treat "probably done" as not done.
 ## Stay On The Critical Path
